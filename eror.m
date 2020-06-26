@@ -1,5 +1,5 @@
 % функция вычисления ошибки оценки угловой координаты
-    function [err var] = eror(eps, eps_method, m, alpha, regl)
+    function [err var] = error_(eps, eps_method, m, alpha, regl)
 
     err = zeros(1,m);
     var = zeros(1,m);
